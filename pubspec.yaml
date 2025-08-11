@@ -308,6 +308,12 @@ dependency_overrides:
   
   async: 2.13.0
 
+  # Fix pdfrx compilation error with Flutter SDK 3.32.8
+  pdfrx: 1.0.94
+
+  # Override to fix compatibility issues with Flutter SDK 3.32.8
+  extended_text: 12.0.0
+
   # TODO: Due conflict version of hive_ce_generator with other dependencies
   # So we will remove it when found the appropriate version
   hive:
